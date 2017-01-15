@@ -5,4 +5,4 @@ spring:
     active: default
   cloud:
     config:
-       uri: http://192.168.33.10:8761  
+       uri: ${CONFIGURATITON_SERVICE_URL || http://192.168.33.10:8761}
