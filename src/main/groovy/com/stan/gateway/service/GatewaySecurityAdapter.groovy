@@ -1,4 +1,4 @@
-package com.stan.gateway
+package com.stan.gateway.service
 
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso
 import org.springframework.context.annotation.Configuration

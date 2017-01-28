@@ -1,4 +1,4 @@
-package com.stan.gateway
+package com.stan.gateway.service
 
 import java.security.Principal
 
