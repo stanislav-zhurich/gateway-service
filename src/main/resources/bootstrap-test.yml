@@ -5,4 +5,4 @@ spring:
     active: test
   cloud:
     config:
-       uri: $CLOUD_CONFIG_URL
+       uri: ${CLOUD_CONFIG_URL}
