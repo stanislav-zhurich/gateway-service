@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: gateway-service
-  profiles:
-    active: test
-  cloud:
-    config:
-       uri: ${CLOUD_CONFIG_URL}

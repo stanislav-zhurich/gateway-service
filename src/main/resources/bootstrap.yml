@@ -1,8 +1,6 @@
 spring:
   application:
     name: gateway-service
-  profiles:
-    active: default
   cloud:
     config:
-       uri: http://192.168.33.11:8761
+       uri: ${CLOUD_CONFIG_URL}
